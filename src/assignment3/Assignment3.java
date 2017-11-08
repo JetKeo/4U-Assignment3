@@ -102,7 +102,7 @@ public class Assignment3 {
     public void alphabeticalInsertionSort(String[] array) {
         // start going through the array
         for (int i = 0; i < array.length - 1; i++) {
-            // storeS position
+            // store position
             int position = i;
             // check values beside each other 
             while (position >= 0 && array[position].compareTo(array[position + 1]) > 0) {
